@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>OpenBus - דברים</title><link href="/" rel="alternate"></link><link href="/feeds/dbrym.atom.xml" rel="self"></link><id>/</id><updated>2018-06-08T08:28:00+03:00</updated><entry><title>פוסט לדוגמא</title><link href="/example/" rel="alternate"></link><published>2018-06-08T08:28:00+03:00</published><updated>2018-06-08T08:28:00+03:00</updated><author><name>cjer</name></author><id>tag:None,2018-06-08:/example/</id><summary type="html">&lt;p&gt;לפוסט הזה יש סיכום מגניב&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;למאמר הזה אין רק סיכום מגניב? יש לו גם תוכן מגניב. &lt;em&gt;כן&lt;/em&gt;
+&lt;a href="http://simplistic.me"&gt;Hi, simplistic!&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;מה?&lt;/p&gt;
+</content><category term="מגניב"></category><category term="מאמר"></category><category term="אני"></category></entry></feed>

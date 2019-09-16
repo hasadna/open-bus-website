@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+          integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+          crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+            integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+            crossorigin=""></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+          crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+
+    <meta charset="UTF-8">
+    <title>קווי אוטובוס ללא תשלום ביום הבחירות - ספטמבר 2019</title>
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark rtl">
+        <a class="navbar-brand" href="#">
+            <span>
+                קווי אוטובוס ללא תשלום ביום הבחירות לכנסת
+                <span style="font-size: small; color: #e2e2e2;">ספטמבר 2019</span>
+            </span>
+        </a>
+
+        <span>
+            <form class="form-inline my-2 my-lg-0">
+                <a href="https://github.com/hasadna/open-bus"
+                   class="navbar-text d-inline-block navbar-link nav-item"
+                   style="font-size: small; color: #e2e2e2; text-decoration: none;">
+                    <span>פרויקט "תחבורה ציבורית פתוחה", הסדנא לידע ציבורי</span>
+
+                </a>
+
+                <a href="https://www.hasadna.org.il/" style="padding-right: 3%;" class="nav-item d-inline-block">
+                    <img src="https://avatars3.githubusercontent.com/u/503639"
+                         width="30"
+                         height="30"
+                         class="d-inline-block align-top rounded-circle" />
+                </a>
+            </form>
+        </span>
+    </nav>
+
+    <div id="mapid"></div>
+</body>
+</html>
